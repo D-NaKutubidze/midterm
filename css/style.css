@@ -34,7 +34,7 @@ header{
     align-items: center;
     padding-left: 70px;
 }
-.header_box_2{
+.go-pro{
     display: flex;
    padding-left: 300px;
     height: 60px;
@@ -42,7 +42,7 @@ header{
     position: relative;
     
 }
-.messages{
+.message-box{
     width: 24px;
     height: 24px;
     padding-right: 10px;
@@ -59,18 +59,18 @@ header{
     padding-right: 10px;
 }
 
-.text_header{
+.go-pro-text{
     color: #ff2288;
     width: 80px;
     
 }
-.button{
+.upload{
     width: 129px;
     height: 56px;
     position: relative;
     padding-left: 10px;
 }
-.button_text{
+.upload-text{
     position: absolute;
     top: 20px;
     right: 30px;
@@ -354,7 +354,7 @@ ul li{
         .menu-options_2,.following,.load_more,.burger,.search1,footer,.footer_div,.following,.second_section,.forth_section{
             display: none;
         }
-        .header_box_2{
+        .go-pro{
             padding-left: 0px;
         }
         .titles_child_1,.titles_child_2,.titles_child_3,.titles_child_4,.titles_child_5,.titles_child_6,.titles_child_7,.titles_child_8,.titles_child_9 {
