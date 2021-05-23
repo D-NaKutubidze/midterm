@@ -128,7 +128,7 @@ header{
     width: 289px;
     height: 278px;
 }
-.main_section_2{
+.main-menu-part2-1{
     display: flex;
     margin-left: 20px;
 }
@@ -147,12 +147,12 @@ header{
     width: 289px;
     height: 278px;
 }
-.main_section_2 p{
+.main-menu-part2-1 p{
     margin-left: 30px;
     font-size: 16px;
     font-family: 'metropolis';
 }
-.button_box{
+.load-more-div{
     display: inline-block;
     position: relative;
     margin-left:460px;
@@ -168,33 +168,33 @@ h1{
     font-size: 32px;
     height: 50px;
 }
-.top_designers div{
+.top-designers div{
     margin-left: 15px;
 
 }
-.top_designers p{
+.top-designers p{
     margin-left: 10px;
     margin-top: 10px;
     font-size: 12px;
     color: rgb(19, 18, 18);
 }
-.main_box_4{
+.top-designers-box{
     display: flex;
     margin-top: 50px;
 }
-.top_designers img{
+.top-designers img{
     width: 132px;
     height: 132px;
 
 }
-.top_designers{
+.top-designers{
     margin-left: 0;
 }
-.div_tv{
+.top-designers-div{
     display: flex;
     
 }
-.div_tv  h2{
+.top-designers-div  h2{
     padding-left: 900px;
     padding-top: 20px;
 
@@ -225,33 +225,33 @@ h1{
     margin-top: 10px;
     display: flex;
 }
-.list_box{
+.bottom{
     display: flex;
     margin-top: 150px;
 }
-.list_box_child_2,.list_box_child_3,.list_box_child_4{
+.bottom-box2,.bottom-box3,.bottom-box4{
     padding-left: 250px;
 
 }
-.list_box_child_1{
+.bottom-box1{
     margin-left: 25px;
 }
 ul li{
     font-size: 16px;
     font-family: 'avenir';
 }
-.li2{
+.bottom-box-1{
     margin-top: 0px;
 }
 
 /* footer */
-.footer_div img{
+.footer img{
     margin-left: 10px;
 }
 .logo{
     padding-left: 1000px;
 }
-.footer_div{
+.footer{
     margin-top: 20px;
 }
 /* second page */
@@ -345,13 +345,13 @@ ul li{
 .load_more,.following{
     color: white;
 }
-.forth_section{
+.main-menu-part2{
     margin-left: 120px;
 }
 
 @media only screen and (max-width: 320px)
 {
-        .menu-options_2,.following,.load_more,.burger,.search1,footer,.footer_div,.following,.filter,.forth_section{
+        .menu-options_2,.following,.load_more,.burger,.search1,footer,.footer,.following,.filter,.main-menu-part2{
             display: none;
         }
         .go-pro{
@@ -361,7 +361,7 @@ ul li{
             flex-wrap: wrap;
             
         }
-        .list_section p,.list_box_child_1,.list_box_child_2,.list_box_child_3,.list_box_child_4{
+        .list_section p,.bottom-box1,.bottom-box2,.bottom-box3,.bottom-box4{
             font-size: 12px;
             padding-left: 10px;
             padding-top: 5px;
@@ -377,14 +377,14 @@ ul li{
         .just ul li{
             font-size: 9px;
         }
-        .list_box{
+        .bottom{
             display: block;
         }
         .menu{
             margin-left: 0px;
             margin-right: 0px;
         }
-        .main-menu1,.main_box_4{
+        .main-menu1,.top-designers-box{
             flex-wrap: wrap;
             padding-left: 0px;
         }
