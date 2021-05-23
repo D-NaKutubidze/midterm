@@ -311,7 +311,8 @@ ul li{
 
 .footer{
     margin-top: 20px;
-    margin-left:300px ;
+    margin-left:1003px ;
+    display: flex;
 }
 
 .table div{
