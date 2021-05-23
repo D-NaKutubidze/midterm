@@ -311,13 +311,12 @@ ul li{
 .footer img{
     margin-left: 10px;
 }
-.logo{
-    padding-left: 1000px;
-}
+
 .footer{
     margin-top: 20px;
+    margin-left:300px ;
 }
-/* second page */
+
 .table div{
     display: flex;
     justify-content: space-evenly;
@@ -334,7 +333,7 @@ ul li{
     padding-left:150px;
     padding-top: 20px;
 }
-.table,.just, footer{
+.tabl {
     margin-left:120px ;
 }
 
