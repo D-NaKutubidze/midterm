@@ -9,7 +9,7 @@
 header{
     margin-top: 30px;
 }
-.search_div{
+.search1{
     margin-left: 120px;
     width: 446px;
     height: 56px;
@@ -17,7 +17,7 @@ header{
     position: relative;
     align-items: center;
 }
-.search_p{
+.search-inspiration{
     position: absolute;
     font-size: 14px;
     top: 23px;
@@ -29,7 +29,7 @@ header{
     right: 6px;
     top: 15px;
 }
-.search_section{
+.main-search{
     display: flex;
     align-items: center;
     padding-left: 70px;
@@ -291,12 +291,12 @@ ul li{
 .menu-box1{
     position: absolute;
 }
-.container {
+.burger {
     display: inline-block;
     cursor: pointer;
   }
   
-  .bar1, .bar2, .bar3 {
+  .burger1, .burger2, .burger3 {
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -305,41 +305,41 @@ ul li{
   }
   
   /* Rotate first bar */
-  .change .bar1 {
+  .change .burger1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
   }
   
   /* Fade out the second bar */
-  .change .bar2 {
+  .change .burger2 {
     opacity: 0;
   }
   
   /* Rotate last bar */
-  .change .bar3 {
+  .change .burger3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
-.container{
+.burger{
     padding-left: 10px;;
 }
-.bar_f,.bar_s,.bar_t,.bar_fr,.bar_fth{
+.home,.explore,.folders,.favourites,.activities{
     display: flex;
 }
-.bar_f li,.bar_s li ,.bar_t li,.bar_fr li ,.bar_fth li{
+.home li,.explore li ,.folders li,.favourites li ,.activities li{
     color: white;
     padding-top: 25px;
 }
-.menu_list{
+.menu-options{
     padding-top: 50px;
 }
-.menu_list_2{
+.menu-options_2{
     padding-top: 30px;
 }
-.menu_list li,.menu_list_2 li{
+.menu-options li,.menu-options_2 li{
     padding-left: 20px;
 }
-.bar_f img,.bar_s img ,.bar_t img,.bar_fr img ,.bar_fth img{
+.home img,.explore img ,.folders img,.favourites img ,.activities img{
     padding-top: 20px;
 }
 .load_more,.following{
@@ -351,7 +351,7 @@ ul li{
 
 @media only screen and (max-width: 320px)
 {
-        .menu_list_2,.following,.load_more,.container,.search_div,footer,.footer_div,.following,.second_section,.forth_section{
+        .menu-options_2,.following,.load_more,.burger,.search1,footer,.footer_div,.following,.second_section,.forth_section{
             display: none;
         }
         .header_box_2{
