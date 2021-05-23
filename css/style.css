@@ -135,14 +135,7 @@ header{
 .menu-cover{
     position: relative;
 }
-.image_icons{
-    display: flex;
-    flex-direction: column;
-    padding-top: 2px;
-    position: absolute;
-    top: 250px;
-    left: 250px;
-}
+
 .cover5,.cover6,.cover7,.cover8{
     width: 289px;
     height: 278px;
