@@ -22,7 +22,7 @@ header{
     font-size: 14px;
     top: 23px;
     left: 10px;
-    font-family: 'Book';
+    font-family: 'avenir';
 }
 .search_icon{
     position: absolute;
@@ -74,7 +74,7 @@ header{
     position: absolute;
     top: 20px;
     right: 30px;
-    font-family: 'Book';
+    font-family: 'avenir';
     color: white;
 }
 .third_section{
@@ -92,13 +92,13 @@ header{
 }
 .second_section h2{
     font-size: 16px;
-    font-family: 'Book';
+    font-family: 'avenir';
     margin-left: 50px;
 
 }
 .filters{
     font-size: 16px;
-    font-family: 'Book';
+    font-family: 'avenir';
     position: absolute;
     top: 22.5px;
     left: 60px;
@@ -122,7 +122,7 @@ header{
 .main_box_1 p{
     margin-left: 30px;
     font-size: 16px;
-    font-family: 'Medium';
+    font-family: 'metropolis';
 }
 .picture_1,.picture_2,.picture_3,.picture_4{
     width: 289px;
@@ -150,7 +150,7 @@ header{
 .main_section_2 p{
     margin-left: 30px;
     font-size: 16px;
-    font-family: 'Medium';
+    font-family: 'metropolis';
 }
 .button_box{
     display: inline-block;
@@ -208,7 +208,7 @@ h1{
 }
 .p2{
     font-size: 12px;
-    font-family: 'Book';
+    font-family: 'avenir';
     color: #222222;
     justify-content: center;
 }
@@ -238,7 +238,7 @@ h1{
 }
 ul li{
     font-size: 16px;
-    font-family: 'Book';
+    font-family: 'avenir';
 }
 .li2{
     margin-top: 0px;
@@ -263,7 +263,7 @@ ul li{
     padding-left: 100px;
     padding-top: 50px;
     font-size: 16px;
-    font-family: 'Book';
+    font-family: 'avenir';
     color: #afafaf;
 }
 .row{

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Medium';
-    src: url('../fonts/Metropolis-Medium.eot');
+    font-family: 'metropolis';
+    src: url('../fonts/Metropolis-metropolis.eot');
     src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg'),
          url('../fonts/Metropolis-Medium.ttf') format('truetype'),
@@ -11,7 +11,7 @@
   }
   
   @font-face {
-    font-family: 'Book';
+    font-family: 'avenir';
     src: url('../fonts/AvenirLTStd-Book.eot');
     src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
          url('../fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg'),
