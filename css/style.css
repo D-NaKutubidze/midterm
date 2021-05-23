@@ -248,11 +248,11 @@ ul li{
     margin-top: 20px;
 }
 /* second page */
-.list_section div{
+.table div{
     display: flex;
     justify-content: space-evenly;
 }
-.list_section p{
+.table p{
     padding-left: 100px;
     padding-top: 50px;
     font-size: 16px;
@@ -264,7 +264,7 @@ ul li{
     padding-left:150px;
     padding-top: 20px;
 }
-.list_section,.just, footer{
+.table,.just, footer{
     margin-left:120px ;
 }
 
@@ -350,11 +350,11 @@ ul li{
         .go-pro{
             padding-left: 0px;
         }
-        .titles_child_1,.titles_child_2,.titles_child_3,.titles_child_4,.titles_child_5,.titles_child_6,.titles_child_7,.titles_child_8,.titles_child_9 {
+        .raw1,.raw2,.raw3,.raw4,.raw5,.raw6,.raw7,.raw8,.raw9 {
             flex-wrap: wrap;
             
         }
-        .list_section p,.bottom-box1,.bottom-box2,.bottom-box3,.bottom-box4{
+        .table p,.bottom-box1,.bottom-box2,.bottom-box3,.bottom-box4{
             font-size: 12px;
             padding-left: 10px;
             padding-top: 5px;
