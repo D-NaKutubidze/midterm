@@ -1,11 +1,82 @@
-.menu,.main_menu-box{
+.menu {
     max-width: 1200px;
     width: 100%;
     margin: 0px auto;
     background-color: white; 
     /* for responsive */
 }
-/* header */
+.menu-box{
+    width: 12%;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 0 2%;
+    top: 0;
+    /* z-index: 1; */
+    position: absolute;
+    left: 0px;
+}
+.menu-box1{
+    position: absolute;
+}
+.burger {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .burger1, .burger2, .burger3 {
+    width: 26px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .burger1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .burger2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .burger3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+.burger{
+    padding-left: 10px;;
+}
+.home,.explore,.folders,.favourites,.activities{
+    display: flex;
+}
+.home li,.explore li ,.folders li,.favourites li ,.activities li{
+    color: white;
+    padding-top: 25px;
+}
+.menu-options{
+    padding-top: 50px;
+}
+.menu-options_2{
+    padding-top: 30px;
+}
+.menu-options li,.menu-options_2 li{
+    padding-left: 20px;
+}
+.home img,.explore img ,.folders img,.favourites img ,.activities img{
+    padding-top: 20px;
+}
+.load_more,.following{
+    color: white;
+}
+.main-menu-part2{
+    margin-left: 120px;
+}
 header{
     margin-top: 30px;
 }
@@ -80,7 +151,7 @@ header{
 .main-menu{
     margin-left: 120px;
 }
-/* Second section */
+
 .filter-box-1{
     display: flex;
     align-items: center;
@@ -104,7 +175,7 @@ header{
     left: 60px;
 
 }
-/* second section */
+
 .filter-box-2{
     position: relative;
     margin-left:200px ;
@@ -237,7 +308,6 @@ ul li{
     margin-top: 0px;
 }
 
-/* footer */
 .footer img{
     margin-left: 10px;
 }
@@ -268,79 +338,6 @@ ul li{
     margin-left:120px ;
 }
 
-/* burger menu     */
-.menu-box{
-    width: 12%;
-    height:800px;
-    display: flex;
-    flex-direction: column;
-    background-color: #222222;
-    padding: 0 2%;
-    top: 0;
-    /* z-index: 1; */
-    position: absolute;
-    left: 0px;
-}
-.menu-box1{
-    position: absolute;
-}
-.burger {
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .burger1, .burger2, .burger3 {
-    width: 26px;
-    height: 1px;
-    background-color: #FFFFFF;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  /* Rotate first bar */
-  .change .burger1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  
-  /* Fade out the second bar */
-  .change .burger2 {
-    opacity: 0;
-  }
-  
-  /* Rotate last bar */
-  .change .burger3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
-.burger{
-    padding-left: 10px;;
-}
-.home,.explore,.folders,.favourites,.activities{
-    display: flex;
-}
-.home li,.explore li ,.folders li,.favourites li ,.activities li{
-    color: white;
-    padding-top: 25px;
-}
-.menu-options{
-    padding-top: 50px;
-}
-.menu-options_2{
-    padding-top: 30px;
-}
-.menu-options li,.menu-options_2 li{
-    padding-left: 20px;
-}
-.home img,.explore img ,.folders img,.favourites img ,.activities img{
-    padding-top: 20px;
-}
-.load_more,.following{
-    color: white;
-}
-.main-menu-part2{
-    margin-left: 120px;
-}
 
 @media only screen and (max-width: 320px)
 {
