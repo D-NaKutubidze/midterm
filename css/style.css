@@ -1,4 +1,4 @@
-.main_container,.main_aside{
+.menu,.main_menu-box{
     max-width: 1200px;
     width: 100%;
     margin: 0px auto;
@@ -276,7 +276,7 @@ ul li{
 }
 
 /* burger menu     */
-.aside{
+.menu-box{
     width: 12%;
     height:800px;
     display: flex;
@@ -288,7 +288,7 @@ ul li{
     position: absolute;
     left: 0px;
 }
-.aside-div{
+.menu-box1{
     position: absolute;
 }
 .container {
@@ -367,7 +367,7 @@ ul li{
             padding-top: 5px;
 
         }
-        .main_container{
+        .menu{
             width: 400px;
         }
         .just{
@@ -380,7 +380,7 @@ ul li{
         .list_box{
             display: block;
         }
-        .main_container{
+        .menu{
             margin-left: 0px;
             margin-right: 0px;
         }
