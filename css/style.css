@@ -318,13 +318,11 @@ ul li{
     font-family: 'avenir';
     color: #afafaf;
 }
-.row{
-    position: relative;
-    padding-left:150px;
-    padding-top: 20px;
-}
 .table {
-    margin-left:120px ;
+    margin-left: 120px ;
+}
+.raw1,.raw2,.raw3,.row4,.raw5,.raw6,.raw7,.raw8,.raw9,.titles{
+    display: flex;
 }
 <!-- responsive options starts here --!>
 
