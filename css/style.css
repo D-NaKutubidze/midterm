@@ -13,7 +13,6 @@
     background-color: #222222;
     padding: 0 2%;
     top: 0;
-    /* z-index: 1; */
     position: absolute;
     left: 0px;
 }
@@ -29,12 +28,8 @@
     width: 26px;
     height: 1px;
     background-color: #FFFFFF;
-    margin: 6px 0;
-    
+    margin: 6px 0; 
   }
-  
-  
-
 .burger{
     padding-left: 10px;;
 }
@@ -161,7 +156,6 @@ header{
     left: 60px;
 
 }
-
 .filter-box-2{
     position: relative;
     margin-left:200px ;
@@ -328,7 +322,6 @@ ul li{
     margin-left:120px ;
 }
 
-
 @media only screen and (max-width: 320px)
 {
         .menu-options_2,.following,.load_more,.burger,.search1,footer,.footer,.following,.filter,.main-menu-part2{
@@ -368,6 +361,4 @@ ul li{
         }
         
 
-    
-    
 }
