@@ -302,6 +302,8 @@ ul li{
     display: flex;
 }
 
+<!-- second page starts here --!>
+
 .table div{
     display: flex;
     justify-content: space-evenly;
@@ -321,4 +323,3 @@ ul li{
 .table {
     margin-left:120px ;
 }
-
