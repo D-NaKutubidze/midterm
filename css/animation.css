@@ -6,3 +6,6 @@
     width: 309px;
     height: 288px;
 }
+.raw1:hover,.raw2:hover,.raw3:hover,.raw4:hover,.raw5:hover,.raw6:hover,.raw7:hover,.raw8:hover,.raw9:hover{
+    background-color: rgb(221, 213, 213);
+}
