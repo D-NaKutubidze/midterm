@@ -30,7 +30,7 @@
     height: 1px;
     background-color: #FFFFFF;
     margin: 6px 0;
-    transition: 0.4s;
+    
   }
   
   
@@ -195,6 +195,8 @@ header{
 .cover1,.cover2,.cover3,.cover4{
     width: 289px;
     height: 278px;
+    transition-property: all;
+    transition-duration: 0.4s;
 }
 .main-menu-part2-1{
     display: flex;
@@ -207,6 +209,8 @@ header{
 .cover5,.cover6,.cover7,.cover8{
     width: 289px;
     height: 278px;
+    transition-property: all;
+    transition-duration: 0.4s;
 }
 .main-menu-part2-1 p{
     margin-left: 30px;
