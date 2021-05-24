@@ -300,6 +300,7 @@ ul li{
     margin-top: 20px;
     margin-left:1003px ;
     display: flex;
+    flex-wrap: wrap;
 }
 
 <!-- second page starts here --!>
@@ -307,6 +308,8 @@ ul li{
 .table div{
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
 .table p{
     padding-left: 100px;
@@ -322,4 +325,12 @@ ul li{
 }
 .table {
     margin-left:120px ;
+}
+<!-- responsive options starts here --!>
+
+@media (max-width: 1024px) {
+    .menu-box{
+        display: flex; 
+        flex-wrap: wrap;
+    }
 }
